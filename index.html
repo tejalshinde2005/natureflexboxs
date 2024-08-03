@@ -3,6 +3,189 @@
 <head>
     <title>Flexbox</title>
     <style>
+.card5{
+            height:150px;
+            width:150px;
+            border:4px double black;
+            border: radius 10px;
+            background-color: white;
+            margin:5px;
+            border-radius:10px;
+            box-shadow: 0 0 5px 2px black;
+        }
+        .card-img5{
+            width:100%;
+            height:100px;
+            border-radius:6px 6px 0 0;
+        }
+        .card-title5{
+            text-align:center;
+            margin:0;
+            padding:0;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .card-container5{
+            display:flex;
+            background-color: bisque;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items: center;
+            height:250px;    
+        }
+        .card5:hover{
+            box-shadow: 0 0 5px 2px rgb(238, 75, 102);
+            cursor: pointer;
+
+        }
+
+.card4{
+            height:150px;
+            width:150px;
+            border:4px double black;
+            border: radius 10px;
+            background-color: white;
+            margin:5px;
+            border-radius:10px;
+            box-shadow: 0 0 5px 2px black;
+        }
+        .card-img4{
+            width:100%;
+            height:100px;
+            border-radius:6px 6px 0 0;
+        }
+        .card-title4{
+            text-align:center;
+            margin:0;
+            padding:0;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .card-container4{
+            display:flex;
+            background-color: bisque;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: center;
+            height:250px;    
+        }
+        .card4:hover{
+            box-shadow: 0 0 5px 2px rgb(238, 75, 102);
+            cursor: pointer;
+
+        }
+
+.card3{
+            height:150px;
+            width:150px;
+            border:4px double black;
+            border: radius 10px;
+            background-color: white;
+            margin:5px;
+            border-radius:10px;
+            box-shadow: 0 0 5px 2px black;
+        }
+        .card-img3{
+            width:100%;
+            height:100px;
+            border-radius:6px 6px 0 0;
+        }
+        .card-title3{
+            text-align:center;
+            margin:0;
+            padding:0;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .card-container3{
+            display:flex;
+            background-color: bisque;
+            flex-direction: row;
+            justify-content:space-evenly;
+            align-items: center;
+            height:250px;    
+        }
+        .card3:hover{
+            box-shadow: 0 0 5px 2px rgb(238, 75, 102);
+            cursor: pointer;
+
+        }
+
+       .card2{
+            height:150px;
+            width:150px;
+            border:4px double black;
+            border: radius 10px;
+            background-color: white;
+            margin:5px;
+            border-radius:10px;
+            box-shadow: 0 0 5px 2px black;
+        }
+        .card-img2{
+            width:100%;
+            height:100px;
+            border-radius:6px 6px 0 0;
+        }
+        .card-title2{
+            text-align:center;
+            margin:0;
+            padding:0;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .card-container2{
+            display:flex;
+            background-color: bisque;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height:250px;    
+        }
+        .card2:hover{
+            box-shadow: 0 0 5px 2px rgb(238, 75, 102);
+            cursor: pointer;
+
+        }
+
+
+        .card1{
+            height:150px;
+            width:150px;
+            border:4px double black;
+            border: radius 10px;
+            background-color: white;
+            margin:5px;
+            border-radius:10px;
+            box-shadow: 0 0 5px 2px black;
+        }
+        .card-img1{
+            width:100%;
+            height:100px;
+            border-radius:6px 6px 0 0;
+        }
+        .card-title1{
+            text-align:center;
+            margin:0;
+            padding:0;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .card-container1{
+            display:flex;
+            background-color: bisque;
+            flex-direction: row-reverse;
+            justify-content: end;
+            align-items: end;
+            height:200px;    
+        }
+        .card1:hover{
+            box-shadow: 0 0 5px 2px rgb(238, 75, 102);
+            cursor: pointer;
+
+        }
+
+
+
         .card{
             height:150px;
             width:150px;
@@ -12,6 +195,7 @@
             margin:5px;
             border-radius:10px;
             box-shadow: 0 0 5px 2px black;
+            
         }
         .card-img{
             width:100%;
@@ -30,19 +214,176 @@
             background-color: bisque;
             flex-direction: row;
             justify-content: start;
-            align-items: center;
-            height:200px;
-            flex-wrap:wrap;
+            align-items: start;
+            height:250px;    
         }
         .card:hover{
             box-shadow: 0 0 5px 2px rgb(238, 75, 102);
             cursor: pointer;
 
         }
-
+       
     </style>
 </head>
 <body>
+    <h1>Flexbox row</h1>
+    <h3>Justify-content=Space-around, flex-direction=row, align-item=center</h3>
+   <div class = "card-container5">
+    <div class="card5">
+         <img src="./image/first.webp" class="card-img5"/>
+         <h2 class="card-title5" >IMAGE 1</h2>
+    </div class = "card-container5">
+        <div class="card5">
+        <img src="./image/second.jpg" class="card-img5"/>
+        <h2 class="card-title5" >IMAGE 2</h2>
+    </div class = "card-container5">
+    <div class="card5">
+        <img src="./image/third.jpg" class="card-img5"/>
+        <h2 class="card-title5" >IMAGE 3</h2>
+    </div class = "card-container5">
+    <div class="card5">
+        <img src="./image/fourth.jpg" class="card-img5"/>
+        <h2 class="card-title5" >IMAGE 4</h2>
+    </div class = "card-container5">
+    <div class="card4">
+        <img src="./image/fifth.jpg" class="card-img5"/>
+        <h2 class="card-title5" >IMAGE 5</h2>
+    </div class = "card-container5">
+    <div class="card5">
+        <img src="./image/sixth.jpg" class="card-img5"/>
+        <h2 class="card-title5" >IMAGE 6</h2>
+    </div>
+    
+   </div>
+
+
+    <h1>Flexbox row</h1>
+    <h3>Justify-content=Space-between, flex-direction=row, align-item=center</h3>
+   <div class = "card-container4">
+    <div class="card4">
+         <img src="./image/first.webp" class="card-img4"/>
+         <h2 class="card-title4" >IMAGE 1</h2>
+    </div class = "card-container4">
+        <div class="card4">
+        <img src="./image/second.jpg" class="card-img4"/>
+        <h2 class="card-title4" >IMAGE 2</h2>
+    </div class = "card-container4">
+    <div class="card3">
+        <img src="./image/third.jpg" class="card-img4"/>
+        <h2 class="card-title4" >IMAGE 3</h2>
+    </div class = "card-container4">
+    <div class="card4">
+        <img src="./image/fourth.jpg" class="card-img4"/>
+        <h2 class="card-title4" >IMAGE 4</h2>
+    </div class = "card-container4">
+    <div class="card4">
+        <img src="./image/fifth.jpg" class="card-img4"/>
+        <h2 class="card-title4" >IMAGE 5</h2>
+    </div class = "card-container4">
+    <div class="card4">
+        <img src="./image/sixth.jpg" class="card-img4"/>
+        <h2 class="card-title4" >IMAGE 6</h2>
+    </div>
+    
+   </div>
+
+
+    <h1>Flexbox row</h1>
+    <h3>Justify-content=Space-evenly, flex-direction=row, align-item=center</h3>
+   <div class = "card-container3">
+    <div class="card3">
+         <img src="./image/first.webp" class="card-img3"/>
+         <h2 class="card-title3" >IMAGE 1</h2>
+    </div class = "card-container3">
+        <div class="card3">
+        <img src="./image/second.jpg" class="card-img3"/>
+        <h2 class="card-title3" >IMAGE 2</h2>
+    </div class = "card-container3">
+    <div class="card3">
+        <img src="./image/third.jpg" class="card-img3"/>
+        <h2 class="card-title3" >IMAGE 3</h2>
+    </div class = "card-container3">
+    <div class="card3">
+        <img src="./image/fourth.jpg" class="card-img3"/>
+        <h2 class="card-title3" >IMAGE 4</h2>
+    </div class = "card-container3">
+    <div class="card3">
+        <img src="./image/fifth.jpg" class="card-img3"/>
+        <h2 class="card-title3" >IMAGE 5</h2>
+    </div class = "card-container2">
+    <div class="card2">
+        <img src="./image/sixth.jpg" class="card-img3"/>
+        <h2 class="card-title3" >IMAGE 6</h2>
+    </div>
+    
+   </div>
+
+    <h1>Flexbox row</h1>
+    <h3>Justify-content=center, flex-direction=row, align-item=center</h3>
+   <div class = "card-container2">
+    <div class="card2">
+         <img src="./image/first.webp" class="card-img2"/>
+         <h2 class="card-title2" >IMAGE 1</h2>
+    </div class = "card-container2">
+        <div class="card2">
+        <img src="./image/second.jpg" class="card-img2"/>
+        <h2 class="card-title2" >IMAGE 2</h2>
+    </div class = "card-container2">
+    <div class="card2">
+        <img src="./image/third.jpg" class="card-img2"/>
+        <h2 class="card-title2" >IMAGE 3</h2>
+    </div class = "card-container2">
+    <div class="card2">
+        <img src="./image/fourth.jpg" class="card-img2"/>
+        <h2 class="card-title2" >IMAGE 4</h2>
+    </div class = "card-container2">
+    <div class="card2">
+        <img src="./image/fifth.jpg" class="card-img2"/>
+        <h2 class="card-title2" >IMAGE 5</h2>
+    </div class = "card-container2">
+    <div class="card2">
+        <img src="./image/sixth.jpg" class="card-img2"/>
+        <h2 class="card-title2" >IMAGE 6</h2>
+    </div>
+    
+   </div>
+
+
+
+    <h1>Flexbox row-reverse</h1>
+    <h3>Justify-content=end, flex-direction=row-reverse, align-item=end</h3>
+   <div class = "card-container1">
+    <div class="card1">
+         <img src="./image/first.webp" class="card-img1"/>
+         <h2 class="card-title1" >IMAGE 1</h2>
+    </div class = "card-container1">
+        <div class="card1">
+        <img src="./image/second.jpg" class="card-img1"/>
+        <h2 class="card-title1" >IMAGE 2</h2>
+    </div class = "card-container1">
+    <div class="card1">
+        <img src="./image/third.jpg" class="card-img1"/>
+        <h2 class="card-title1" >IMAGE 3</h2>
+    </div class = "card-container1">
+    <div class="card1">
+        <img src="./image/fourth.jpg" class="card-img1"/>
+        <h2 class="card-title1" >IMAGE 4</h2>
+    </div class = "card-container1">
+    <div class="card1">
+        <img src="./image/fifth.jpg" class="card-img1"/>
+        <h2 class="card-title1" >IMAGE 5</h2>
+    </div class = "card-container1">
+    <div class="card1">
+        <img src="./image/sixth.jpg" class="card-img1"/>
+        <h2 class="card-title1" >IMAGE 6</h2>
+    </div>
+    
+   </div>
+
+
+
+    <h1>Flexbox row</h1>
+    <h3>Justify-content=start, flex-direction=row, align-item=start</h3>
     <div class="card-container">
         <div class="card">
         <img src="./image/first.webp" class="card-img"/>
@@ -77,7 +418,10 @@
              <div class="card">
             <img src="./image/sixth.jpg" class="card-img"/>
             <h2 class="card-title" >IMAGE 6</h2>
-        </div>
-    </div>
+            </div>
+            </div>
+
+
+
 </body>
 </html>

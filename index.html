@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox</title>
+    <style>
+        .card{
+            height:150px;
+            width:150px;
+            border:4px double black;
+            border: radius 10px;
+            background-color: white;
+            margin:5px;
+            border-radius:10px;
+        }
+        .card-img{
+            width:100%;
+            height:100px;
+            border-radius:6px 6px 0 0;
+        }
+        .card-title{
+            text-align:center;
+            margin:0;
+            padding:0;
+        }
+        .card-container{
+            display:flex;
+            background-color: bisque;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            height:200px;
+            flex-wrap:wrap
+        }
+
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+        <img src="first.webp" class="card-img"/>
+        <h2 class="card-title" >IMAGE 1</h2>
+        </div>
+
+    <div class="card-container">
+        <div class="card">
+        <img src="second.jpg" class="card-img"/>
+        <h2 class="card-title" >IMAGE 2</h2>
+    </div>
+           
+        <div class="card-container">
+            <div class="card">
+            <img src="third.jpg" class="card-img"/>
+            <h2 class="card-title" >IMAGE 3</h2>
+        </div> 
+                
+        <div class="card-container">
+            <div class="card">
+            <img src="fourth.jpg" class="card-img"/>
+            <h2 class="card-title" >IMAGE 4</h2>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+            <img src="fifth.jpg" class="card-img"/>
+            <h2 class="card-title" >IMAGE 5</h2>
+        </div>
+
+         <div class="card-container">
+             <div class="card">
+            <img src="sixth.jpg" class="card-img"/>
+            <h2 class="card-title" >IMAGE 6</h2>
+        </div>
+    </div>
+</body>
+</html>
